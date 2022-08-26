@@ -1,0 +1,6 @@
+.cache
+.config
+.idea/
+.env
+.upm
+venv/
