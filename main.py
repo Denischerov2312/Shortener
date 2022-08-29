@@ -51,7 +51,7 @@ def main():
             bitlink = shorten_link(api_token, url)
             print(bitlink)
     except requests.exceptions.HTTPError:
-        print('Error')
+        print('Неправильная ссылка или токен')
 
 
 if __name__ == '__main__':
